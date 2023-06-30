@@ -1,0 +1,37 @@
+{
+  "name": "mocos",
+  "version": "1.0.0",
+  "description": "Mocos presentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run-script test-md && npm run-script test-py",
+    "test-md": "npx remark book/*.md",
+    "test-py": "python3 -m compileall src",
+    "start": "mdx-deck src/deck.mdx",
+    "build": "cat book/0[0-7].md > book/mocos.md && ls book/mocos.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxai/mocos.git"
+  },
+  "keywords": [
+    "mocos",
+    "python"
+  ],
+  "author": "Pello Xabier Altadill Izura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pxai/mocos/issues"
+  },
+  "homepage": "https://github.com/pxai/mocos#readme",
+  "devDependencies": {
+    "remark-cli": "^8.0.0",
+    "remark-lint": "^7.0.0",
+    "remark-preset-lint-recommended": "^4.0.0",
+    "mdx-deck": "^4.1.1"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1"
+  }
+}

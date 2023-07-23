@@ -2,12 +2,12 @@ zenbakiak = []
 aukera = -1
 
 while aukera != "4":
-    print("Aukeratu aukera")
-    print("1. Elementua txertatu.")
+    print("Aukeratu")
+    print("1. Elementua sartu.")
     print("2. Elementua kendu.")
-    print("3. Arraya erakutsi.")
+    print("3. Arraia erakutsi.")
     print("4. Irten.")
-    aukera = input("Aukeratu aukera: ")
+    aukera = input("Sartu aukera: ")
 
     if "1":
         zenbakiak.append(0)

@@ -1,7 +1,7 @@
 izen = input("Idatzi zure izena: ")
-jaiotegia = input("Idatzi jaiotegi lekua: ")
-urtea = input("Idatzi jaiotegi urtea: ")
+jaiotegia = input("Idatzi jaiotze lekua: ")
+urtea = input("Idatzi jaiotze urtea: ")
 
-mezua = f"{izen} izena duzu, {jaiotegia} kokatuta jaiotu zen eta {urtea} urtean"
+mezua = f"{izen} izena duzu, {jaiotegia}n jaio zinen {urtea} urtean"
 
 print(mezua)

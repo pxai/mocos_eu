@@ -1,4 +1,4 @@
-clientes = [
+bezeroak = [
     {
         "izena": "Juan",
         "email": "jj@terra.com",
@@ -16,5 +16,5 @@ clientes = [
     }
 ]
 
-for klientea in clientes:
-    print(f"{klientea['izena']} {klientea['adina']}")
+for bezeroa in bezeroak:
+    print(f"{bezeroak['izena']} {bezeroak['adina']}")

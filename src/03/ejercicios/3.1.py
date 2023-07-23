@@ -4,6 +4,6 @@ batuketa = 0.0
 for zenbakia in zenbakiak:
     batuketa = batuketa + zenbakia
 
-media = batuketa / len(zenbakiak)
+batazbestekoa = batuketa / len(zenbakiak)
 
-print("Errepikapena da: ", media)
+print("Batazbestekoa da: ", media)

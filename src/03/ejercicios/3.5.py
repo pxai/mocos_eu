@@ -1,8 +1,8 @@
-telefonoenak = {"Ada": 666555333, "Bug": 111000111 }
+telefonoak = {"Ada": 666555333, "Bug": 111000111 }
 
 izena = input("Sartu izena: ")
 
-del telefonoenak[izena]
+del telefonoak[izena]
 
-for izena in telefonoenak.keys():
-    print(izena, telefonoenak[izena])
+for izena in telefonoak.keys():
+    print(izena, telefonoak[izena])

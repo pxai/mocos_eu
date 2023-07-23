@@ -1,25 +1,25 @@
-Dispositibo klasea:
+class Dispositiboa:
     def __init__(self, izena, prezioa):
         self._izena = izena
         self._prezioa = prezioa
 
-    def get_izena():
+    def getIzena():
         return self._izena
 
-    def set_izena(izena):
+    def setIzena(izena):
         self._izena = izena
 
-    def get_prezioa():
+    def getPrezioa():
         return self._prezioa
 
-    def set_prezioa(prezioa):
+    def setPrezioa(prezioa):
         self._prezioa = prezioa
 
     def toString(self):
         return f"{self._izena} {self._prezioa}";
 
 
-class Mugikorra(Dispositibo):
+class Mugikorra(Dispositiboa):
     def __init__(self, izena, prezioa, zenbakia):
         super().__init__(izena, prezioa)
         self._zenbakia = zenbakia
@@ -39,7 +39,7 @@ class Mugikorra(Dispositibo):
         print("Deitzen", zenbakia)
 
 
-class Ordenagailua(Dispositibo):
+class Ordenagailua(Dispositiboa):
     def __init__(self, izena, prezioa, prozesadorea):
         super().__init__(izena, prezioa)
         self._prozesadorea = prozesadorea

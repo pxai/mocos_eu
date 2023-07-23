@@ -1,4 +1,4 @@
-Klase Persona:
+class Pertsona:
     def loEgin(self):
         print("ZZZZZ...")
 
@@ -8,7 +8,7 @@ Klase Persona:
     def kaixo(self):
         print("Kaixo, zer moduz!")
 
-pertsona = Persona()
+pertsona = Pertsona()
 
 pertsona.loEgin()
 pertsona.jan()

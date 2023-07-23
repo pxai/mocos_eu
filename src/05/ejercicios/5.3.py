@@ -1,27 +1,27 @@
-class Bihotza:
-    def __init__(hau, matrícula):
-        hau._matrícula = matrícula
+class Ibilgailua:
+    def __init__(self, matrikula):
+        self._matrikula = matrikula
 
     @property
-    def matrícula (hau):
-        return hau._matrícula
+    def matrikula (self):
+        return self._matrikula
 
-    @matrícula.setter
-    def matrícula (hau, matrícula):
-        hau._matrícula = matrícula
+    @matrikula.setter
+    def matrikula (self, matrikula):
+        self._matrikula = matrikula
 
-    def abiarazi (hau):
-        print("Abiarazten ", hau._matrícula)
+    def abiarazi (self):
+        print("Abiarazten ", self._matrikula)
 
 
-class Kotxea(Bihotza):
-    def __init__(hau, matrícula, modeloa, kolorea):
-        super().__init__(matrícula)
-        hau._modeloa = modeloa
-        hau._kolorea = kolorea
+class Kotxea(Ibilgailua):
+    def __init__(self, matrikula, modeloa, kolorea):
+        super().__init__(matrikula)
+        self._modeloa = modeloa
+        self._kolorea = kolorea
 
-    def info (hau):
-        return f"{hau.matrícula} {hau._modeloa} {hau._kolorea}";
+    def info (self):
+        return f"{self.matrikula} {self._modeloa} {self._kolorea}";
 
 
 kotxea = Kotxea("0042ASI", "Opel Corsa", "Zuria")

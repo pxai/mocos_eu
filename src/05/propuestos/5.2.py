@@ -1,4 +1,4 @@
-Klasea Sumador:
+class Batuketa:
     def __init__(self, balio1, balio2):
         self.balio1 = balio1
         self.balio2 = balio2
@@ -29,9 +29,9 @@ Klasea Sumador:
         return self._balio1 + self._balio2
 
 
-sumador = Sumador(28, 14)
-print(sumador.batu())
+batuketa = Batuketa(28, 14)
+print(batuketa.batu())
 
-sumador.balio1 = 600
-sumador.balio2 = 66
-print(sumador.batu())
+batuketa.balio1 = 600
+batuketa.balio2 = 66
+print(batuketa.batu())

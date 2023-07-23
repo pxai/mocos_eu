@@ -2,8 +2,8 @@ import random
 
 class Zenbakia:
     @staticmethod
-    def aleatorio (max):
+    def ausazkoa (max):
       return random.randint(0, max)
 
 for i in range(5):
-  print(Zenbakia.aleatorio(10))
+  print(Zenbakia.ausazkoa(10))

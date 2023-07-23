@@ -1,9 +1,9 @@
-Hola klasea:
+class Kaixo:
     def __init__(self):
-        self.saludo = "Kaixo"
+        self.agurra = "Kaixo"
 
     def esanKaixo (self):
-        print(self.saludo)
+        print(self.agurra)
 
 
 hola = Hola()

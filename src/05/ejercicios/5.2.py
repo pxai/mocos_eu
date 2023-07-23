@@ -1,16 +1,16 @@
-Klasea Comida:
+class Janaria:
     def __init__(self, izena):
         self.izena = izena
 
 
-class Fruitua(Comida):
-    def __init__(self, izena, vitaminak):
+class Fruitua(Janaria):
+    def __init__(self, izena, bitaminak):
         super().__init__(izena)
-        self.vitaminak = vitaminak
+        self.bitaminak = bitaminak
 
     def info(self):
-        # return f"{self.nombre} {self.vitaminas}";
-        return self.izena + " " + str(self.vitaminak)
+        # return f"{self.izena} {self.bitaminak}";
+        return self.izena + " " + str(self.bitaminak)
 
 postrea = Fruitua("Kiwi", ["A", "C"])
 print(postrea.info())

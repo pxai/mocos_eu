@@ -1,6 +1,5 @@
-Kode Python hau itzuli ezazu baskeraz, aldagaiak lehen letra larritzen gabe:
 
-class Piloto:
+class Pilotoa:
     def __init__(self, izena):
         self._izena = izena
 
@@ -14,26 +13,26 @@ class Piloto:
 
 
 
-class Aeroplano:
-    def __init__(self, modelo, piloto, kopiloto):
-        self._modelo = modelo
-        self._piloto = piloto
-        self._kopiloto = kopiloto
+class Hegazkina:
+    def __init__(self, modeloa, pilotoa, koPilotoa):
+        self._modeloa = modeloa
+        self._pilotoa = pilotoa
+        self._koPilotoa = koPilotoa
 
     @property
-    def modelo (self):
-        return self._modelo
+    def modeloa (self):
+        return self._modeloa
 
-    @modelo.setter
-    def modelo (self, modelo):
-        self._modelo = modelo
+    @modeloa.setter
+    def modeloa (self, modeloa):
+        self._modeloa = modeloa
 
-    def hegaldu (self):
-        return f"{self._modelo} modeloaren {self._piloto.izena} eta {self._kopiloto.izena} batekin hegaldia egiten"
+    def info (self):
+        return f"{self._modeloa} modeloa, {self._pilotoa.izena} eta {self._koPilotoa.izena}rekin hegaldia egiten"
 
 
-piloto1 = Piloto("Han Solo")
-piloto2 = Piloto("Murdock")
-hegazkin-txikia = Aeroplano("AirBluff 727", piloto1, piloto2)
+pilotoa1 = Pilotoa("Han Solo")
+pilotoa2 = Pilotoa("Murdock")
+hegazkinTxikia = Hegazkina("AirBluff 727", pilotoa1, pilotoa2)
 
-print(hegazkin-txikia.hegaldu())
+print(hegazkinTxikia.info())

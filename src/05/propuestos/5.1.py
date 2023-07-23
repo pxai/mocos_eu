@@ -1,25 +1,23 @@
-Klase bat sortu "IzenaFormatuta" izenarekin:
-
-class IzenaFormatuta:
+class IzenZuzena:
     def __init__(self, izena, abizena):
         self._izena = izena
         self._abizena = abizena
 
-    def formatu (self):
+    def zuzendu (self):
         return self._zuzendu(self._izena) + " " + self._zuzendu(self._abizena)
 
 
-    def _zuzendu (self, katea):
-        return self._lehenengo(katea) + self._gainera(katea)
+    def _zuzendu (self, hizkiak):
+        return self._lehenengo(hizkiak) + self._gainera(hizkiak)
 
 
-    def _lehenengo (self, katea):
-        return katea[0].lower()
+    def _lehenengo (self, hizkiak):
+        return hizkiak[0].lower()
 
 
-    def _gainera (self, katea):
-        return katea[1:len(katea)].lower()
+    def _gainera (self, hizkiak):
+        return hizkiak[1:len(hizkiak)].lower()
 
 
-formatuador = IzenaFormatuta("JUAN", "PÉREZ")
-print(formatuador.formatu())
+zuzentzailea = IzenZuzena("JUAN", "PÉREZ")
+print(zuzentzailea.zuzendu())

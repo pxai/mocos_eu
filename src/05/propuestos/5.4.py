@@ -1,39 +1,39 @@
 import random
 
-def aleatorio (maximo):
-    return random.randint(0, maximo)
+def ausazkoa (maximoa):
+    return random.randint(0, maximoa)
 
-class Dado:
-    def __init__(self, lados = 6, admite_cero = False):
-        self._lados = lados
-        self._admite_cero = admite_cero
-
-    @property
-    def lados (self):
-        return self._lados
-
-    @lados.setter
-    def lados (self, lados):
-        self._lados = lados
+class Dadoa:
+    def __init__(self, aldeak = 6, zeroOnartu = False):
+        self._aldeak = aldeak
+        self._zeroOnartu = zeroOnartu
 
     @property
-    def admite_cero (self):
-        return self._admite_cero
+    def aldeak (self):
+        return self._aldeak
 
-    @admite_cero.setter
-    def admite_cero (self, admite_cero):
-        self._admite_cero = admite_cero
+    @aldeak.setter
+    def aldeak (self, aldeak):
+        self._aldeak = aldeak
 
-    def tirar (self):
-        numero =  aleatorio(self._lados)
+    @property
+    def zeroOnartu (self):
+        return self._zeroOnartu
 
-        if not self._admite_cero:
-            numero = numero + 1
+    @zeroOnartu.setter
+    def zeroOnartu (self, zeroOnartu):
+        self._zeroOnartu = zeroOnartu
 
-        return numero
+    def bota (self):
+        zenbaki =  ausazkoa(self._aldeak)
+
+        if not self._zeroOnartu:
+            zenbaki = zenbaki + 1
+
+        return zenbaki
 
 
 
-dado = Dado()
+dadoa = Dadoa()
 for i in range(10):
-    print(dado.tirar())
+    print(dadoa.bota())

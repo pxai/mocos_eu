@@ -1,16 +1,16 @@
 import random
 
-def aleatorio (max):
+def ausazkoa (max):
     return random.randint(0, max)
 
-class Moneda:
-    def tirar (self):
-        lados = ["aurpegi", "koroa"]
-        numero = aleatorio(1)
+class Txanpona:
+    def bota (self):
+        aldeak = ["aurpegi", "gurutze"]
+        zenbakia = ausazkoa(1)
 
-        return lados[numero]
+        return aldeak[zenbakia]
 
-moneda = Moneda()
+txanpona = Txanpona()
 
 for i in range(10):
-    print(moneda.tirar())
+    print(txanpona.bota())

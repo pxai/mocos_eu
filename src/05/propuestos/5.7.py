@@ -1,4 +1,4 @@
-class Janari:
+class Janaria:
     def __init__(hau, izena, pisua):
         hau._izena = izena
         hau._pisua = pisua
@@ -23,7 +23,7 @@ class Janari:
         return f"{hau._izena} {hau._pisua}"
 
 
-class Fruta(Janari):
+class Fruta(Janaria):
     def __init__(hau, izena, pisua, bitamina):
         super().__init__(izena, pisua)
         hau._bitamina = bitamina
@@ -40,7 +40,7 @@ class Fruta(Janari):
         return f'{super().toString()} {hau._bitamina}'
 
 
-class Karamelo(Janari):
+class Goxokia(Janaria):
     def __init__(hau, izena, pisua, kaloria):
         super().__init__(izena, pisua)
         hau._kaloria = kaloria
@@ -57,11 +57,11 @@ class Karamelo(Janari):
         return f'{super().toString()} {hau._kaloria}'
 
 
-class Kesta:
+class Saskia:
     def __init__(hau):
         hau._janariak = []
 
-    def sartuJanari (hau, janari):
+    def sartuJanaria (hau, janari):
         hau._janariak.append(janari)
 
     def pisuGuztira (hau):
@@ -79,16 +79,16 @@ class Kesta:
         return informazioa
 
 
-txintxa = Karamelo("Cheiw", 0.2, 100)
-gominoa = Karamelo("Fresa", 0.3, 210)
+txintxa = Goxokia("Cheiw", 0.2, 100)
+gominoa = Goxokia("Fresa", 0.3, 210)
 udarea = Fruta("Pera", 0.1, "B")
 sagarra = Fruta("Manzana", 0.15, "A")
 
-kest1 = Kesta()
-kest1.sartuJanari(txintxa)
-kest1.sartuJanari(gominoa)
-kest1.sartuJanari(udarea)
-kest1.sartuJanari(sagarra)
+saskia = Saskia()
+saskia.sartuJanaria(txintxa)
+saskia.sartuJanaria(gominoa)
+saskia.sartuJanaria(udarea)
+saskia.sartuJanaria(sagarra)
 
-print("Kesta edukia:", kest1.toString())
-print("Pisu guztira:", kest1.pisuGuztira())
+print("Saskiaren edukia:", saskia.toString())
+print("Pisua guztira:", saskia.pisuGuztira())

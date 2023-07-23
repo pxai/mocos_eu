@@ -1,9 +1,9 @@
-numero1 = input("Sartu zenbaki bat: ")
-numero2 = input("Sartu beste zenbaki bat: ")
+balio1 = input("Sartu zenbaki bat: ")
+balio2 = input("Sartu beste zenbaki bat: ")
 
-if numero1 > numero2:
-    print(numero1, " ", numero2, "- baino handiagoa da")
-elif numero1 < numero2:
-    print(numero1, " ", numero2, "- baino txikiagoa da")
+if balio1 > balio2:
+    print(balio1, " ", balio2, " baino handiagoa da")
+elif balio1 < balio2:
+    print(balio1, " ", balio2, " baino txikiagoa da")
 else:
-    print(numero1, " ", numero2, " - ri berdinak dira")
+    print(balio1, " ", balio2, "berdinak dira")

@@ -1,9 +1,6 @@
 texto = input("Sartu testua: ")
 
-tx = "Hola!"
-be = "Ez dut ulertzen."
-
 if texto == "saludo":
-    print(tx)
+    print("Kaixo!")
 else:
-    print(be)
+    print("Ez dut ulertzen.")

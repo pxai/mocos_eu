@@ -1,16 +1,16 @@
-dorsal = input("Sartu dorsoa: ")
-dorsal = int(dorsal)
+zenbakia = input("Sartu zenbakia: ")
+zenbakia = int(zenbakia)
 
-if dorsal >= 0 and dorsal <= 99:
-  if dorsal == 1:
+if zenbakia >= 0 and zenbakia <= 99:
+  if zenbakia == 1:
       print("Atari gizona")
-  elif dorsal >= 1 and dorsal <= 5:
+  elif zenbakia >= 1 and zenbakia <= 5:
       print("Defentsa jokalaria")
-  elif dorsal >= 6 and dorsal <= 8 or dorsal == 11:
+  elif zenbakia >= 6 and zenbakia <= 8 or zenbakia == 11:
       print("Erdilari jokalaria")
-  elif dorsal == 9:
-      print("Atalari jokalaria")
+  elif zenbakia == 9:
+      print("Aurrelari jokalaria")
   else:
       print("Norbera")
 else:
-    print("Errorea, dorsoa 0 eta 99 artean ez dago")
+    print("Errorea, zenbakia ez dago 0 eta 99 artean")

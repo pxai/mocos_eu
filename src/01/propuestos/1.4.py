@@ -1,18 +1,18 @@
-peso = input("Sartu zure pisua: ")
+pisua = input("Sartu zure pisua: ")
 altuera = input("Sartu zure altuera: ")
-peso = int(peso)
+pisua = int(pisua)
 altuera = int(altuera)
 
-imc = peso / (altuera * altuera)
+emaitza = pisua / (altuera * altuera)
 
-imcRedondeado = (imc * 10000)
+imc = (emaitza * 10000)
 print("Zure IMC: ", imcRedondeado)
 
-if imcRedondeado < 16 :
+if imc < 16 :
   print("Beharrezkoa da gehiago jan")
-elif imcRedondeado >= 16 and imcRedondeado < 25:
+elif imc >= 16 and imc < 25:
   print("Ongi zaude")
-elif imcRedondeado >= 25 and imcRedondeado < 30:
+elif imc >= 25 and imc < 30:
   print("Gorputz gordinagoa duzu")
 else:
   print("Obesitate arazoa daukazu")

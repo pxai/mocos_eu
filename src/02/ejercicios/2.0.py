@@ -1,4 +1,4 @@
 kontagailua = 0
 while kontagailua < 5:
-    print("Barruan nago loop-aren bidez")
+    print("Begizta barruan nago")
     kontagailua = kontagailua + 1

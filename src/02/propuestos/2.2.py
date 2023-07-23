@@ -2,11 +2,11 @@ zenbakia = input("Sartu zenbaki bat: ")
 zenbakia = int(zenbakia)
 
 if zenbakia <= 0 or zenbakia % 2 != 0:
-    print("0 baino handiagoa den zenbaki bikoitza sartu behar duzu")
+    print("0 baino handiagoa den zenbaki bikoitia sartu behar duzu")
 else:
-    izarak = ""
+    izarrak = ""
     while zenbakia > 0:
-        izarak = izarak + "*"
+        izarrak = izarrak + "*"
         zenbakia = zenbakia - 1
 
-    print(izarak)
+    print(izarrak)

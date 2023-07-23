@@ -4,11 +4,11 @@ zenbakia = int(zenbakia)
 if zenbakia <= 0:
     print("0 baino handiagoa den zenbaki bat sartu behar duzu")
 else:
-    izarak = "\n"
+    izarrak = "\n"
     for i in range(zenbakia):
         for j in range(zenbakia):
-            izarak = izarak + "*"
+            izarrak = izarrak + "*"
             
-        izarak = izarak + "\n"
+        izarrak = izarrak + "\n"
 
-    print(izarak)
+    print(izarrak)

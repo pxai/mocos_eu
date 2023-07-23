@@ -1,5 +1,5 @@
-repetitu = [3, 6, 2]
+errepikatu = [3, 6, 2]
 
-for aldiz in repetitu:
+for aldiz in errepikatu:
     for i in range(aldiz):
         print("Python")

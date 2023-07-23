@@ -16,5 +16,5 @@ def faktura(produktuak, kantitateak, prezioak):
 
 
 # Deituriko adibidea
-totalFaktura = faktura(["Ogi","Arrautza","Harina"],[1,6,2],[1.2, 0.2, 0.8])
+totalFaktura = faktura(["Ogi","Arrautza","Hirina"],[1,6,2],[1.2, 0.2, 0.8])
 print(totalFaktura)

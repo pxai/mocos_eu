@@ -1,8 +1,8 @@
-def eskerrik_asko(momentua):
+def agurtu(momentua):
     if momentua == "goizean":
         return "Egun on"
     elif momentua == "arratsaldean":
-        return "Arratsaldeon ondo"
+        return "Arratsalde on"
     elif momentua == "gauero":
         return "Gabon on"
     else:
@@ -10,10 +10,11 @@ def eskerrik_asko(momentua):
 
 print(eskerrik_asko("arratsaldean"))
 
-def eskerrik_asko2(momentua):
+# beste bertsio bat
+def agurtu2(momentua):
     return {
         "goizean": "Egun on",
-        "arratsaldean": "Arratsalde ondo",
+        "arratsaldean": "Arratsalde on",
         "gauero": "Gabon on"
     }[momentua]
 

@@ -1,4 +1,4 @@
-def koadratura(a):
+def karratua(a):
     print(a * a)
 
-koadratura(3)
+karratua(3)

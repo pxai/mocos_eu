@@ -1,12 +1,12 @@
-def diferencia (balio1, balio2):
-    diferentzia = 0
+def diferentzia (balio1, balio2):
+    kenketa = 0
 
     if balio1 > balio2:
-        diferentzia = balio1 - balio2
+        kenketa = balio1 - balio2
     else:
-        diferentzia = balio2 - balio1
+        kenketa = balio2 - balio1
 
-    print("Diferentzia da: ", diferentzia)
+    print("Diferentzia da: ", kenketa)
 
-diferencia(10, 5)
-diferencia(4, 12)
+diferentzia(10, 5)
+diferentzia(4, 12)

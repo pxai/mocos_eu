@@ -1,4 +1,4 @@
-def banatu (a, b):
+def zatitu(a, b):
     return a / b
 
-print(banatu(3))
+print(zatitu(3))

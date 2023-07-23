@@ -1,6 +1,6 @@
 import random
 
-def aleatorio (max):
+def ausazkoa (max):
     return random.randint(0, max)
 
-print(aleatorio(5))
+print(ausazkoa(5))

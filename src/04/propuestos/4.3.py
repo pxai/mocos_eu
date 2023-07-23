@@ -1,10 +1,10 @@
-def zenbatzarekin_hasi(longitatea, zenbakia):
+def hasieratuZenbakiarekin(luzera, zenbakia):
     zenbakiak = []
-    for i in range(longitorea):
+    for i in range(luzera):
         zenbakiak.append(zenbakia)
     return zenbakiak
 
-def zenbatzarekin_hasi1(longitadea, zenbakia): return [zenbakia] * longitadea
+def hasieratuZenbakiarekin2(luzera, zenbakia): return [zenbakia] * luzera
 
-print(zenbatzarekin_hasi(10, 3))
-print(zenbatzarekin_hasi1(10, 3))
+print(hasieratuZenbakiarekin(10, 3))
+print(hasieratuZenbakiarekin(10, 3))

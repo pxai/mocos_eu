@@ -1,38 +1,38 @@
 import random
 
-def aleatorio (maximo):
-    return random.randint(0, maximo)
+def ausazkoa (maximoa):
+    return random.randint(0, maximoa)
 
-def generar_atributos (nivel_compensación):
-    dar_puntos_a = 0
-    inteligencia = 0
-    fuerza = 0
-    velocidad = 0
+def atributuakSortu(konpentsaketaMaila):
+    puntuakEman = 0
+    adimena = 0
+    indarra = 0
+    abiadura = 0
 
-    puntos_restantes = 20
-    puntos = 0
+    gainontzekoPuntuak = 20
+    puntuak = 0
 
-    while puntos_restantes > 0:
-        if nivel_compensación > puntos_restantes:
-            puntos = puntos_restantes
-            puntos_restantes = 0
+    while gainontzekoPuntuak > 0:
+        if nivel_compensación > gainontzekoPuntuak:
+            puntuak = gainontzekoPuntuak
+            gainontzekoPuntuak = 0
         else:
-            puntos = aleatorio(nivel_compensación+1)
-            puntos_restantes = puntos_restantes - puntos
+            puntuak = aleatorio(konpentsaketaMaila+1)
+            gainontzekoPuntuak = gainontzekoPuntuak - puntuak
 
-        dar_puntos_a = aleatorio(3)
+        puntuakEman = aleatorio(3)
 
-        if dar_puntos_a == 0:
-            inteligencia = inteligencia + puntos
-        elif dar_puntos_a == 1:
-            fuerza = fuerza + puntos
-        elif dar_puntos_a == 2:
-            velocidad = velocidad + puntos
+        if puntuakEman == 0:
+            adimena = adimena + puntuak
+        elif puntuakEman == 1:
+            indarra = indarra + puntuak
+        elif puntuakEman == 2:
+            abiadura = abiadura + puntuak
 
-    print("\nBalioak konpentsazioaren arabera adierazita: ", nivel_compensación)
-    print("Inteligentzia: ", inteligencia)
-    print("Indarra: ", fuerza)
-    print("Azkarera: ", velocidad)
+    print("\nBalioak konpentsazioaren arabera adierazita: ", konpentsaketaMaila)
+    print("Adimena: ", adimena)
+    print("Indarra: ", indarra)
+    print("Abiadura: ", abiadura)
 
 
-generar_atributos(3)
+atributuakSortu(3)

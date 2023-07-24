@@ -1,9 +1,9 @@
-menua sarrera
-nire_menua = menua.Menu(["Erakutsi", "Kendu", "Irten"])
+import menu
+nireMenua = menua.Menu(["Erakutsi", "Kendu", "Irten"])
 
-nire_menua.erakutsi()
+nireMenua.erakutsi()
 
-if nire_menua.aukeratu(1):
-    print("1. aukera une honetan dago")
+if nireMenua.aukeratu(1):
+    print("1. aukera badado menuan")
 else:
-    print("1. aukera ez dago une honetan")
+    print("1. aukera ez dago menu honetan")

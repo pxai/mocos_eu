@@ -1,5 +1,5 @@
-import generar
+import sortu
 
-pasahitza = generar.generarPasahitza(8)
+pasahitza = sortu.pasahitzaSortu(8)
 
 print(pasahitza)

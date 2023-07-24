@@ -1,8 +1,8 @@
-Klasea Ikaslea izan da:
+class Ikaslea:
     def __init__ (self, izena):
         self._izena = izena
 
-class Gelak:
+class Gela:
     def __init__ (self):
         self._ikasleak = []
     
@@ -16,7 +16,7 @@ class Gelak:
 ikasle1 = Ikaslea("Gumball")
 ikasle2 = Ikaslea("Darwin")
 
-gela = Gelak()
+gela = Gela()
 
 gela.ikasleaSartu(ikasle1)
 gela.ikasleaSartu(ikasle2)

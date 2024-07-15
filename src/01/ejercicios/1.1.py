@@ -1,6 +1,6 @@
 texto = input("Sartu testua: ")
 
-if texto == "saludo":
+if texto == "agurra":
     print("Kaixo!")
 else:
     print("Ez dut ulertzen.")

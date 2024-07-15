@@ -1,20 +1,8 @@
-bezeroak = [
-    {
-        "izena": "Juan",
-        "email": "jj@terra.com",
-        "adina": 39
-    },
-    {
-        "izena": "Pedro",
-        "email": "pp@ozu.es",
-        "adina": 42
-    },
-    {
-        "izena": "Ana",
-        "email": "ana@ole.com",
-        "adina": 37
-    }
-]
+telefonoak = {"Ada": 66555333, "Bug": 111000111}
 
-for bezeroa in bezeroak:
-    print(f"{bezeroak['izena']} {bezeroak['adina']}")
+izena = input ("Sartu izen bat:")
+
+telefonoak [izena]
+
+for izena in telefonos.keys ():
+  print (izena, telefonoak[izena])

@@ -8,4 +8,4 @@ else:
 
 zenbakia = -zenbakia
 
-print("Biraketa: ", zenbakia)
+print("Bihurketa: ", zenbakia)

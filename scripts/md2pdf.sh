@@ -9,9 +9,11 @@ SRC=book_eu/
 #     --listings -H ${TEMPL}listings-setup.tex \
 
 #FILES=${TEXT}prologue.md ${TEXT}level1.md ${TEXT}level7.md
-pandoc  -V language=spanish -V lang=spanish \
+pandoc --template=${TEMPL}plantilla-kdp.latex \
+    -V language=spanish -V lang=spanish \
     -V author='Pello Xabier Altadill Izura' -V title='Programazioa Ikasi'\
-        --pdf-engine=wkhtmltopdf  -V geometry:margin=1in \
+    -V documentclass=book\
+    -smart --latex-engine=xelatex  \
     -o ${DIST}mukiak.pdf  \
     ${SRC}00.md \
     ${SRC}01.md \

@@ -1,6 +1,6 @@
-valor1 = input("Sartu zenbaki bat: ")
-valor2 = input("Sartu beste zenbaki bat: ")
+balio1 = input("Sartu zenbaki bat: ")
+balio2 = input("Sartu beste zenbaki bat: ")
 
-emaitza = valor1 != valor2
+emaitza = balio1 != balio2
 
-print("Deferentzia dute?", emaitza)
+print("Ezberdinak al dira?", emaitza)

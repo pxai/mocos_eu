@@ -1,15 +1,16 @@
-listado-eko = importatu
-nire_listadoa = listado.Listado("4.json")
+import zerrenda
 
-badaude = nire_listadoa.existe("eugene")
+nire_zerrenda = zerrenda.inprimatu("4.json")
+
+badaude = nire_zerrenda.existitzenDa("eugene")
 if badaude:
     print("Dago!")
 
-nire_listadoa.aMinusculas()
-nire_listadoa.print()
+nire_zerrenda.minuskulatuta()
+nire_zerrenda.print()
 
-badaude = nire_listadoa.existe("eugene")
+badaude = nire_zerrenda.existitzenDa("eugene")
 if badaude:
-    posizioa = nire_listadoa.posicion('eugene')
+    posizioa = nire_zerrenda.posizioa('eugene')
     print("Dago!")
     print(posizioa)

@@ -1,14 +1,15 @@
-import tareas
-misTareas = tareas.Tareas()
+import zereginak
 
-print(misTareas.mostrar(), "\n---")
+nireZereginak = zereginak.Tareas()
 
-misTareas.crear(2, "Eskatzak")
-print(misTareas.mostrar(), "\n---")
+print(nireZereginak.erakutsi(), "\n---")
 
-misTareas.eliminar(2)
-print(misTareas.mostrar(), "\n---")
+nireZereginak.sortu(2, "Eskatzak")
+print(nireZereginak.erakutsi(), "\n---")
 
-misTareas.crear(66, "Irakurri")
-print(misTareas.mostrar(), "\n---")
-misTareas.guardar()
+nireZereginak.ezabatu(2)
+print(nireZereginak.erakutsi(), "\n---")
+
+nireZereginak.sortu(66, "Irakurri")
+print(nireZereginak.erakutsi(), "\n---")
+nireZereginak.gorde()

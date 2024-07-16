@@ -1,6 +1,6 @@
 import json
 
-class Listado:
+class Zerrenda:
     def __init__ (self, nombreFichero):
         contenido = open(nombreFichero, "r")
         self._datos = json.load(contenido)

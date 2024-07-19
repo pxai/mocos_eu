@@ -1,6 +1,6 @@
 testua = input("Idatzi testua: ")
 
-if testua == "bihar":
+if testua == "goiza":
     print("Egun on.")
 elif testua == "arratsalde":
     print("Arratsalde on.")

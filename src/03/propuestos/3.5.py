@@ -1,11 +1,11 @@
-frasea = input("Idatzi esaldi bat: ")
+esaldia = input("Idatzi esaldi bat: ")
 hitza = input("Idatzi esalditik hitz bat: ")
 
-posizioa = frasea.index(hitza)
+posizioa = esaldia.index(hitza)
 
 if posizioa != -1:
-    hasiera = frasea[0:posizioa]
-    bukaera = frasea[posizioa + len(hitza):len(frasea)]
+    hasiera = esaldia[0:posizioa]
+    bukaera = esaldia[posizioa + len(hitza):len(esaldia)]
     emaitza = f"{hasiera}{hitza.upper()}{bukaera}"
 
     print(emaitza)

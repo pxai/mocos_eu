@@ -14,4 +14,4 @@ print(matrizea)
 for i in range(len(matrizea)):
     for j in range(len(matrizea[i])):
         if matrizea[i][j] == 15:
-            print("15 aurkitu da ", i )
+            print("15 aurkitu da ", i, j)

@@ -15,6 +15,6 @@ def faktura(produktuak, kantitateak, prezioak):
     return faktura
 
 
-# Deituriko adibidea
-totalFaktura = faktura(["Ogi","Arrautza","Hirina"],[1,6,2],[1.2, 0.2, 0.8])
-print(totalFaktura)
+# Adibidea
+fakturaGuztira = faktura(["Ogi","Arrautza","Hirina"],[1,6,2],[1.2, 0.2, 0.8])
+print(fakturaGuztira)

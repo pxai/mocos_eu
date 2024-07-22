@@ -3,7 +3,7 @@ def agurtu(momentua):
         return "Egun on"
     elif momentua == "arratsaldean":
         return "Arratsalde on"
-    elif momentua == "gauero":
+    elif momentua == "gauean":
         return "Gabon on"
     else:
         return ""

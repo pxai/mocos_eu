@@ -1,10 +1,10 @@
-def batu(*hitza):
+def hitzak_batu(*hitza):
     esaldia = ""
 
     for h in hitza:
         esaldia = esaldia + " " + h
-    
+
     return esaldia
 
 
-print(batu("kaixo", "nola", "naiz"))
+print(hitzak_batu("kaixo", "nola", "naiz"))

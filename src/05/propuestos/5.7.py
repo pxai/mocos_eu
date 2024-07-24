@@ -1,88 +1,88 @@
 class Janaria:
-    def __init__(hau, izena, pisua):
-        hau._izena = izena
-        hau._pisua = pisua
+    def __init__(self, izena, pisua):
+        self._izena = izena
+        self._pisua = pisua
 
     @property
-    def izena (hau):
-        return hau._izena
+    def izena (self):
+        return self._izena
 
     @izena.setter
-    def izena (hau, izena):
-        hau._izena = izena
+    def izena (self, izena):
+        self._izena = izena
 
     @property
-    def pisua (hau):
-        return hau._pisua
+    def pisua (self):
+        return self._pisua
 
     @pisua.setter
-    def pisua (hau, pisua):
-        hau._pisua = pisua
+    def pisua (self, pisua):
+        self._pisua = pisua
 
-    def toString (hau):
-        return f"{hau._izena} {hau._pisua}"
+    def toString (self):
+        return f"{self._izena} {self._pisua}"
 
 
 class Fruta(Janaria):
-    def __init__(hau, izena, pisua, bitamina):
+    def __init__(self, izena, pisua, bitamina):
         super().__init__(izena, pisua)
-        hau._bitamina = bitamina
+        self._bitamina = bitamina
 
     @property
-    def bitamina (hau):
-        return hau._bitamina
+    def bitamina (self):
+        return self._bitamina
 
     @bitamina.setter
-    def bitamina (hau, bitamina):
-        hau._bitamina = bitamina
+    def bitamina (self, bitamina):
+        self._bitamina = bitamina
 
-    def toString (hau):
-        return f'{super().toString()} {hau._bitamina}'
+    def toString (self):
+        return f'{super().toString()} {self._bitamina}'
 
 
 class Goxokia(Janaria):
-    def __init__(hau, izena, pisua, kaloria):
+    def __init__(self, izena, pisua, kaloria):
         super().__init__(izena, pisua)
-        hau._kaloria = kaloria
+        self._kaloria = kaloria
 
     @property
-    def kaloria (hau):
-        return hau._kaloria
+    def kaloria (self):
+        return self._kaloria
 
     @kaloria.setter
-    def kaloria (hau, kaloria):
-        hau._kaloria = kaloria
+    def kaloria (self, kaloria):
+        self._kaloria = kaloria
 
-    def toString (hau):
-        return f'{super().toString()} {hau._kaloria}'
+    def toString (self):
+        return f'{super().toString()} {self._kaloria}'
 
 
 class Saskia:
-    def __init__(hau):
-        hau._janariak = []
+    def __init__(self):
+        self._janariak = []
 
-    def sartuJanaria (hau, janari):
-        hau._janariak.append(janari)
+    def sartuJanaria (self, janari):
+        self._janariak.append(janari)
 
-    def pisuGuztira (hau):
+    def pisuGuztira (self):
         guztira = 0
-        for janaria in hau._janariak:
+        for janaria in self._janariak:
             guztira += janaria.pisua
 
         return guztira
 
-    def toString (hau):
+    def toString (self):
         informazioa = ""
-        for janaria in hau._janariak:
+        for janaria in self._janariak:
             informazioa = informazioa + janaria.toString() + "\n"
 
         return informazioa
 
 
-txintxa = Goxokia("Cheiw", 0.2, 100)
-gominoa = Goxokia("Fresa", 0.3, 210)
-udarea = Fruta("Pera", 0.1, "B")
-sagarra = Fruta("Manzana", 0.15, "A")
+txintxa = Goxokia("Bomer", 0.2, 100)
+gominoa = Goxokia("Marrubia", 0.3, 210)
+udarea = Fruta("Udarea", 0.1, "B")
+sagarra = Fruta("Sagarra", 0.15, "A")
 
 saskia = Saskia()
 saskia.sartuJanaria(txintxa)

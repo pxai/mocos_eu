@@ -3,7 +3,7 @@ class Instrumentua:
         self._izena = izena
         self._mota = mota
 
-    def jotzea (self):
+    def jo (self):
         print("Jotzen ", self._izena, "jotzen")
 
     def info (self):
@@ -11,5 +11,5 @@ class Instrumentua:
 
 
 nireGitarra = Instrumentua("Gitarra", "klasikoa")
-nireGitarra.jotzea()
+nireGitarra.jo()
 print(nireGitarra.info())

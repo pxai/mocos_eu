@@ -16,11 +16,11 @@ class Zereginak:
         fitxategia.close()
 
     def ezabatu(self, id):
-        self._zereginak = list(filter(lambda dato: dato["id"] != id, self._zereginak))
+        self._zereginak = list(filter(lambda datua: datua["id"] != id, self._zereginak))
 
     def erakutsi (self):
         emaitza = ""
-        for dato in self._zereginak:
-            emaitza += json.dumps(dato) + "\n"
+        for datua in self._zereginak:
+            emaitza += json.dumps(datua) + "\n"
 
         return emaitza

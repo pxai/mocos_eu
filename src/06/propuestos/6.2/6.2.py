@@ -4,7 +4,7 @@ nireZereginak = zereginak.Tareas()
 
 print(nireZereginak.erakutsi(), "\n---")
 
-nireZereginak.sortu(2, "Eskatzak")
+nireZereginak.sortu(2, "Gehiago ikasi")
 print(nireZereginak.erakutsi(), "\n---")
 
 nireZereginak.ezabatu(2)

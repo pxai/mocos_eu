@@ -8,7 +8,7 @@ class Taldea:
         print("Kargatuta:", jokalariak)
         self._jokalariak = []
         for j in jokalariak:
-            self._jokalariak.append(jokalaria.Jokalaria(j["izena"], j["dorsala"]))
+            self._jokalariak.append(jokalaria.Jokalaria(j["izena"], j["zenbakia"]))
 
     def fitxaketa(self, izena, dorsala):
         fitxategiBerria = jokalaria.Jokalaria(izena, dorsala)

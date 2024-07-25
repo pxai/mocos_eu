@@ -1,5 +1,5 @@
 class Jokalaria:
-  def __init__ (self, izena, dorsal):
+  def __init__ (self, izena, zenbakia):
       self._izena = izena
       self._zenbakia = zenbakia
 

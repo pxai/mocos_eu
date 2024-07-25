@@ -1,7 +1,8 @@
-import equipo
-miEquipo = equipo.Equipo()
+import taldea
 
-miEquipo.cargar()
-miEquipo.mostrar()
-miEquipo.fichaje("Gento", 11)
-miEquipo.mostrar()
+nireTaldea = taldea.Taldea()
+
+nireTaldea.kargatu()
+nireTaldea.inprimatu()
+nireTaldea.fitxaketa("Gento", 11)
+nireTaldea.inprimatu()

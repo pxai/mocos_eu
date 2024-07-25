@@ -6,7 +6,7 @@ badaude = nire_zerrenda.existitzenDa("eugene")
 if badaude:
     print("Dago!")
 
-nire_zerrenda.minuskulatuta()
+nire_zerrenda.xehetu()
 nire_zerrenda.print()
 
 badaude = nire_zerrenda.existitzenDa("eugene")

@@ -1,9 +1,9 @@
 import json
 
-fitxategiarea = open("texto.json", "r")
+fitxategiarea = open("testua.json", "r")
 edukia = json.load(fitxategiarea)
 
 for pertsonaia in edukia:
-    print(pertsonaia["nombre"])
+    print(pertsonaia["izena"])
 
 fitxategiarea.close()

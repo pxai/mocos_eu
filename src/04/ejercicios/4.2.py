@@ -7,4 +7,4 @@ def hitzak_batu(*hitza):
     return esaldia
 
 
-print(hitzak_batu("kaixo", "nola", "naiz"))
+print(hitzak_batu("kaixo", "zer", "moduz"))

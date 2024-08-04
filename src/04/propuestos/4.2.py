@@ -4,18 +4,18 @@ def agurtu(momentua):
     elif momentua == "arratsaldean":
         return "Arratsalde on"
     elif momentua == "gauean":
-        return "Gabon on"
+        return "Gabon"
     else:
         return ""
 
-print(eskerrik_asko("arratsaldean"))
+print(agurtu("arratsaldean"))
 
 # beste bertsio bat
 def agurtu2(momentua):
     return {
         "goizean": "Egun on",
         "arratsaldean": "Arratsalde on",
-        "gauero": "Gabon on"
+        "gauero": "Gabon"
     }[momentua]
 
-print(eskerrik_asko2("arratsaldean"))
+print(agurtu2("arratsaldean"))

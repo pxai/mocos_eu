@@ -16,5 +16,5 @@ def faktura(produktuak, kantitateak, prezioak):
 
 
 # Adibidea
-fakturaGuztira = faktura(["Ogi","Arrautza","Hirina"],[1,6,2],[1.2, 0.2, 0.8])
+fakturaGuztira = faktura(["Ogia","Arraultza","Irina"],[1,6,2],[1.2, 0.2, 0.8])
 print(fakturaGuztira)

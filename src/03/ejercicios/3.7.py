@@ -17,4 +17,4 @@ bezeroak = [
 ]
 
 for bezeroa in bezeroak:
-    print(f"{bezeroak['izena']} {bezeroak['adina']}")
+    print(f"{bezeroa['izena']} {bezeroa['adina']}")

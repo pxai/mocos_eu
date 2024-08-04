@@ -9,13 +9,14 @@ while aukera != "4":
     print("4. Irten.")
     aukera = input("Sartu aukera: ")
 
-    if "1":
-        zenbakiak.append(0)
-    elif "2":
+    if aukera == "1":
+        berria = int(input("Sartu zenbakia: "))
+        zenbakiak.append(berria)
+    elif aukera == "2":
         zenbakiak.pop()
-    elif "3":
+    elif aukera == "3":
         print(zenbakiak)
-    elif "4":
+    elif aukera == "4":
         print("Agurra")
     else:
         print("Aukera ezezaguna")

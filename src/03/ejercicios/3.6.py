@@ -4,5 +4,5 @@ izena = input ("Sartu izen bat:")
 
 telefonoak [izena]
 
-for izena in telefonos.keys ():
+for izena in telefonoak.keys ():
   print (izena, telefonoak[izena])

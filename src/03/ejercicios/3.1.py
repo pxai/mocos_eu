@@ -6,4 +6,4 @@ for zenbakia in zenbakiak:
 
 batazbestekoa = batuketa / len(zenbakiak)
 
-print("Batazbestekoa da: ", media)
+print("Batazbestekoa da: ", batazbestekoa)

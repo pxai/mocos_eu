@@ -7,7 +7,7 @@ class Jokalaria:
     def txosten (self):
         return f"{self._izena} {self._posizioa} {self._zenbakia}"
 
-    
+
 class Taldea:
     def __init__ (self, izena, sortzea, aurrekontua):
         self._izena = izena
@@ -28,7 +28,7 @@ jokalaria2 = Jokalaria("Beckenbauer", "Defentsa", 4)
 
 print(jokalaria1.txosten())
 
-ekipoa = Kepa("New Team", 1983, 39944.45)
+ekipoa = Taldea("New Team", 1983, 39944.45)
 ekipoa.jokalariaFitxatu(jokalaria1)
 ekipoa.jokalariaFitxatu(jokalaria2)
 

@@ -1,4 +1,3 @@
-
 class Pilotoa:
     def __init__(self, izena):
         self._izena = izena

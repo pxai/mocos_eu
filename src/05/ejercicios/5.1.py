@@ -6,5 +6,5 @@ class Kaixo:
         print(self.agurra)
 
 
-hola = Hola()
-hola.esanKaixo()
+kaixo = Kaixo()
+kaixo.esanKaixo()

@@ -1,6 +1,6 @@
 import zereginak
 
-nireZereginak = zereginak.Tareas()
+nireZereginak = zereginak.Zereginak()
 
 print(nireZereginak.erakutsi(), "\n---")
 

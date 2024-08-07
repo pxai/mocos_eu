@@ -2,7 +2,7 @@ import taldea
 
 nireTaldea = taldea.Taldea()
 
-nireTaldea.kargatu()
+nireTaldea.karga()
 nireTaldea.inprimatu()
 nireTaldea.fitxaketa("Gento", 11)
 nireTaldea.inprimatu()

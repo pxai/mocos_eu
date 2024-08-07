@@ -6,12 +6,12 @@ class Zereginak:
         self._zereginak = json.load(fitxategia)
         fitxategia.close()
 
-    def sortu (self, id, tarea):
-        berria = { "id": id, "tarea": tarea };
+    def sortu (self, id, zeregina):
+        berria = { "id": id, "zeregina": zeregina };
         self._zereginak.append(berria)
 
     def gorde (self):
-        fitxategia = open("tareas.json", "w")
+        fitxategia = open("zereginak.json", "w")
         fitxategia.write(json.dumps(self._zereginak))
         fitxategia.close()
 

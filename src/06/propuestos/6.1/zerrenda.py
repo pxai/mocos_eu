@@ -2,9 +2,9 @@ import json
 
 class Zerrenda:
     def __init__ (self, fitxategiIzena):
-        contenido = open(fitxategiIzena, "r")
-        self._datuak = json.load(contenido)
-        contenido.close()
+        edukia = open(fitxategiIzena, "r")
+        self._datuak = json.load(edukia)
+        edukia.close()
 
     def existitzenDa (self, izena):
         for datu in self._datuak:

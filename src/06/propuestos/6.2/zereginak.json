@@ -1,5 +1,5 @@
 [
-    {"zeregina": "Go ikasi", "id": 3},
-    {"zeregina": "Rust ikertu", "id": 5},
-    {"zeregina": "Lo egin", "id": 10}
+    {"id": 3, "zeregina": "Go ikasi"},
+    {"id": 5, "zeregina": "Rust ikertu"},
+    {"id": 10, "zeregina": "Lo egin"}
 ]

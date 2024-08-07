@@ -1,9 +1,9 @@
-datak importatu
-importatu fitxategia
+import fitxategia
+from datetime import date
 
-miFichero = fitxategia.Fichero("6.0.txt")
+nireFitxategia = fitxategia.Fitxategia("6.0.txt")
 
-print("Aurreko edukia: ", miFichero.leer())
+print("Aurreko edukia: ", nireFitxategia.irakurri())
 
-miFichero.escribir("Eduki aldatuta!!! " + str(date.today()))
-print("Edukia:", miFichero.leer())
+nireFitxategia.idatzi("Eduki aldatuta!!! " + str(date.today()))
+print("Edukia:", nireFitxategia.irakurri())

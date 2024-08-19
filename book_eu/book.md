@@ -30,21 +30,29 @@ Ohiko programazio-ingurune bat instalatu nahi baduzu, zoaz bukaerako eranskin ka
 
 Interneterako konexioa duen edozein ordenagailutan sartu:
 
-https://repl.it /
+https://repl.it/
 
-![Site de replt.it] (https://raw.githubusercontent.com/pxai/mocos/master/book/images/00.png)
+Hortik, `Sign up for free` sakatu
 
-Hortik, `Start coding` sakatu
+![replt.it gunea](images/00.png)
 
-![Start Coding replt.it] (https://raw.githubusercontent.com/pxai/mocos/master/book/images/01.png)
+Kontu berria sortu edo Google kontuarekin konektatu:
 
-Eta hautatu **Python** lengoaia:
+![Gmail bidez edo kontu berria sortu](images/01.png)
 
-![Python en replt.it hautaketa] (https://raw.githubusercontent.com/pxai/mocos/master/book/images/02.png)
+Behien repl.it barruan zaudela, new repl botoia sakatu:
 
-Behin hori eginda, programazio ingurunea kargatuko da:
+![New Repl](images/02.png)
 
-![Replt.it garapen-ingurunea] (https://raw.githubusercontent.com/pxai/mocos/master/book/images/03.png)
+
+Hurrengo pantaila ikusiko duzu. Bilatu **Python** eta hasieratu ingurunea
+
+![Python aukeratu](images/03.png)
+
+Behin hori eginda, programazio ingurunea kargatuko da, hiru gune nagusi dira hemen:
+
+![New Repl](images/04.png)
+
 
 - Ezkerrean, programa idazteko editorea duzu.
 - Eskuinean, kontsola, non ikusiko duzun emaitza programa exekutatzen duzunean.
@@ -932,7 +940,7 @@ Oro har, konparaketa eta boolear eragileak baldintzapeko blokeetan, begiztetan e
 
 ## Proposatutako ariketak
 
-0.0 Ariketa
+### 0.0 Ariketa
 
 Idatzi erabiltzaileari zenbaki bat eskatu eta `7` biderkatuko dion programa bat. Jarraian, kontsola bidez erakutsi behar duzu emaitza.
 
@@ -950,7 +958,7 @@ Sartu zenbaki bat: 3
 Biderketa honakoa da: 21
 ```
 
-0.1 Ariketa
+### 0.1 Ariketa
 
 Idatzi erabiltzaileari zenbaki bat eskatu eta bitan zatikatuko duen programa bat. Jarraian, kontsola bidez erakutsi behar duzu emaitza.
 
@@ -967,7 +975,7 @@ Sartu zenbaki bat:60
 Zatiketa da: 30.0
 ```
 
-0.2 Ariketa
+### 0.2 Ariketa
 
 Idatzi erabiltzaileari zenbaki bat eskatu eta . modulua egiten duen programa bat. Jarraian, kontsola bidez erakutsi behar duzu emaitza.
 
@@ -985,7 +993,7 @@ Sartu zenbaki bat: 7
 Modulua honako hau da: 1
 ```
 
-0.3 Ariketa
+### 0.3 Ariketa
 
 Idatzi erabiltzaileari zenbaki bat eskatu eta ber 2 (2ko esponentziala) aplikatuko dion programa bat. Jarraian, kontsola bidez erakutsi behar duzu emaitza.
 
@@ -1003,7 +1011,7 @@ Sartu zenbaki bat: 4
 Esponentzialaren emaitza: 16
 ```
 
-0.4 Ariketa
+### 0.4 Ariketa
 
 Idatzi erabiltzaileari zenbaki bat eskatu eta 5 kentzen dion programa bat. Jarraian, zeinua aldatu behar diozu eta emaitza kontsolarekin erakutsi.
 
@@ -1022,7 +1030,7 @@ Sartu zenbakia: 4
 Kenketa da: 1
 ```
 
-0.5 Ariketa
+### 0.5 Ariketa
 
 Idatzi erabiltzaileari zenbaki bat eskatzen dion programa bat. Ondoren, `% 2` eragiketa 0ren berdina den egiaztatu behar duzu, eta emaitza erakutsi. Zenbaki bat 2rekin zatitzen bada eta ondarra 0 bada, zenbaki hori bikoitia dela esan nahi du.
 
@@ -1042,7 +1050,7 @@ Sartu zenbaki bat: 8
 Balioa bikoitia da? True
 ```
 
-0.6 Ariketa
+### 0.6 Ariketa
 
 Idatzi erabiltzaileari zenbaki bat eskatzen dion programa bat. Ondoren, zenbaki hori 0 edo handiagoa den egiaztatu behar duzu, hau da, positiboa den.
 
@@ -1061,7 +1069,7 @@ Sartu zenbaki bat: 6
 Positiboa da? True
 ```
 
-0.7 Ariketa
+### 0.7 Ariketa
 
 Idatzi erabiltzaileari zenbaki bat eskatzen dion programa bat. Ondoren, 0 baino txikiagoa den alderatu behar duzu, eta emaitza kontsolaren bidez erakutsi. Zenbakia negatiboa den antzematen ariko ginateke.
 
@@ -1296,7 +1304,7 @@ Sartu beste zenbaki bat: 10
 
 ## Proposatutako ariketak
 
-1.0 Ariketa
+### 1.0 Ariketa
 Sortu programa bat erabiltzaileari bi zenbaki oso eskatuko dizkiona. Gero pantaila bidez erakutsi ea lehenengo zenbakia bigarrenaren multiploa den. Zenbaki bat bestearen multiploa den jakiteko, moduluaren eragiketa egin behar duzu (`%`) haien artean: 0 bada, multiploa izango da.
 
 ```python
@@ -1319,7 +1327,7 @@ Sartu beste zenbaki bat: 4
 40  zenbakia  4  zenbakiaren multiploa da.
 ```
 
-1.1 Ariketa
+### 1.1 Ariketa
 
 Sortu erabiltzaileari zenbaki oso bat eskatzen dion programa bat eta ondorengoa egin: lehenik eta behin pantailan erakutsi behar du zenbakia negatiboa edo positiboa den. Gero, zenbakia positiboa bada, negatibo bihurtu behar du, eta negatiboa bada, positibo.
 
@@ -1345,7 +1353,7 @@ Sartu zenbaki bat: -6
 Bihurketa: 6
 ```
 
-1.2 Ariketa
+### 1.2 Ariketa
 
 Idatzi urteko hilabete baten izena eskatzen duen programa bat eta erakutsi zenbat egun dituen. Hilabete ezezagun bat sartuz gero, "Ez dakigu" mezua erakutsi.
 
@@ -1389,7 +1397,7 @@ Sartu urteko hilabete bat: Ekaina
 
 Hobespena: saiatu programa motzago egiten `or` eragilea erabiliz.
 
-1.3 Ariketa
+### 1.3 Ariketa
 
 Sortu programa bat erabiltzaileari zenbaki oso bat eskatzen diona eta pantailan zenbaki hori bikoitia eta positiboa den ala ez erakusten duena. Bestela, negatiboa edo bakoitia den adierazi behar duzu.
 
@@ -1414,7 +1422,7 @@ Sartu zenbaki bat: -9
 - 9 bakoitia eta negatiboa da
 ```
 
-1.4 Ariketa
+### 1.4 Ariketa
 
 Sortu programa bat erabiltzaileari kilotan duen pisua eta zentimetrotan duen altuera eskatzeko eta GMI kalkulatzeko (pisua/(altuera ber 2)); emaitza erakutsi behar du eta gero mezu bat erakutsi:
 
@@ -1453,7 +1461,7 @@ Zure gmi: 23.66143861546782
 Ondo zaude
 ```
 
-1.5 Ariketa
+### 1.5 Ariketa
 
 Sortu erabiltzaileari jokalari dortsal bat eskatzen dion programa bat eta ondorengoa egin: egiaztatu zenbaki hori 0 eta 99 artean dagoela. Ez badago, programa errore mezu batekin amaitu behar da. Zenbakia 0 eta 99 artekoa bada, programak testu bat erakutsi behar du dortsal bakoitzari dagokion posizioarekin:
 
@@ -1837,7 +1845,7 @@ Biekin gauza bera egin zenezakeen arren, bakoitzak erabilera berezia du.
 
 ## Proposatutako ariketak
 
-2.0 Ariketa
+### 2.0 Ariketa
 
 Idatzi programa bat `while` begizta batekin, erabiltzaileari izen bat eskatzeko (adibidez, `"Ada"`) eta `"Kaixo Ada"` izen hori agurtzeko. `"irten"` testua sartuz gero, begizta amaitu egin behar da.
 
@@ -1864,7 +1872,7 @@ Kaixo irten
 Amaiera.
 ```
 
-2.1 Ariketa
+### 2.1 Ariketa
 
 Idatzi programa bat, erabiltzaileari zenbaki bat eskatzen diona eta zenbakia `0` ez den bitartean amaitzen ez duen `while` begizta duena. Zenbakia sartu ondoren, agur bat erakutsi behar da zenbakiak adierazten duen adina aldiz. Zenbakia `0` baino txikiagoa bada, begizta `break` batekin amaitu behar da;
 
@@ -1891,7 +1899,7 @@ Kaixo
 Sartu zenbaki bat: -1
 ```
 
-2.2 Ariketa
+### 2.2 Ariketa
 
 Sortu erabiltzaileari balio oso bat eskatzen dion programa bat, egiaztatu `0` baino handiagoa dela eta, gainera, bikoitia dela. Hala bada, bistaratu pantailan `*` karakterea zenbakiaren balioa adina aldiz. Erabili `print ("*")`.
 Adibidez, 8 sartuz gero, hau erakutsiko du:
@@ -1924,7 +1932,7 @@ Sartu zenbaki bat: 6
 *****
 ```
 
-2.3 Ariketa
+### 2.3 Ariketa
 
 Sortu aurrekoaren antzeko programa bat, zenbaki bikoiti eta positiboak bakarrik onartu behar dituena. Sartutako zenbakiarekin `*-` testua pantailan agertu behar da, `*`rekin amaituta. Adibidez:
 
@@ -1966,7 +1974,7 @@ Sartu zenbaki bat: 10
 *-*-*-*-*-*
 ```
 
-2.4 Ariketa
+### 2.4 Ariketa
 
 Erabiltzaileari zenbaki oso bat eskatzen dion programa bat sortu, eta balio hori erabiliz, lauki bat marraztu behar du pantailan `*` karakterea erabiliz.
 
@@ -2004,7 +2012,7 @@ Sartu zenbaki bat: 2
 **
 ```
 
-2.5 Ariketa
+### 2.5 Ariketa
 
 Sortu programa bat erabiltzaileari zenbaki oso bat eskatu eta haren faktoria kalkulatzeko. Adibidez, `5` zenbakiaren faktoria `5 x 4 x 3 x 2 x 1 = 120` izango litzateke.
 
@@ -2030,7 +2038,7 @@ Sartu zenbaki bat: 4
 Emaitza: 24
 ```
 
-2.6 Ariketa
+### 2.6 Ariketa
 
 Sortu erabiltzaileari zenbaki oso bat eskatzen dion programa bat eta egiaztatu zenbaki hori lehena (primoa) den ala ez, hau da, bakarrik bere buruarekin edo `1`egatik zatigarria dena. Adibidez: 2, 3, 5, 7, 11, 13, 17,...
 
@@ -2065,7 +2073,7 @@ Sartu zenbaki bat: 5
 5  zenbakia lehena da.
 ```
 
-2.7 Ariketa
+### 2.7 Ariketa
 
 Sortu `0`tik `10`era biderketa taula guztiak erakusten dituen programa bat.
 
@@ -2646,7 +2654,7 @@ garbia = testua.rstrip("\n")
 
 ## Proposatutako ariketak
 
-3.0 Ariketa
+### 3.0 Ariketa
 
 Idatz ezazu 5 elementuko zerrenda bat hasieratzen duen programa bat:
 
@@ -2672,7 +2680,7 @@ Emaitza:
 [True, True, True, True, True]
 ```
 
-3.1 Ariketa
+### 3.1 Ariketa
 
 Idatzi 10 zenbakiko zerrenda bat definitzen duen programa bat. Ondoren, begizta bat sortu behar duzu, posizio bikoitietan 0 bat sartzeko.
 
@@ -2691,7 +2699,7 @@ Emaitza:
 [0, 2, 0, 4, 0, 6, 0, 8, 0, 10]
 ```
 
-3.2 Ariketa
+### 3.2 Ariketa
 
 Idatzi zerrenda bat kudeatzeko programa bat, erabiltzaileari 4 aukera dituen menu batekin: `1` elementua sartu, `2` ezabatu, `3` erakutsi eta `4` irten. Menua erabiltzaileak `4`. aukera sartzen ez duen bitartean erakutsi behar da. `1` aukera aukeratuz gero, edozein balioko `append` egingo da, `2` aukeratuz gero, `pop` egingo da, eta `3` aukeratuz gero, zerrendako edukia erakutsiko da.
 
@@ -2732,7 +2740,7 @@ Aukera ezazu: 3
 []
 ```
 
-3.3 Ariketa
+### 3.3 Ariketa
 
 Idatzi erabiltzaileari hitzak eskatu eta esaldi bat eraikitzeko hitzak kateatzen dituen programa bat, erabiltzaileak puntu bat idatzi arte (.). Azkenean programak sortutako esaldia erakutsi beharko du. Erabiltzaileak ez badu ezer idazten, ez da ezer kateatu behar.
 
@@ -2759,7 +2767,7 @@ Idatzi hitz bat:.
 Kaixo, zer moduz? .
 ```
 
-3.4 Ariketa
+### 3.4 Ariketa
 
 Idatzi programa bat erabiltzaileari bere izena, jaioterria eta jaioturtea eskatzeko. Ondoren, esaldi bat erakutsi behar duzu informazio guztiarekin, interpolazioa edo kate txantiloiak erabiliz.
 
@@ -2782,7 +2790,7 @@ Idatzi zure jaioturtea: 2006
 Ada duzu izena, Tevergan jaio zinen 2006 urtean.
 ```
 
-3.5 Ariketa
+### 3.5 Ariketa
 
 Idatzi erabiltzaileari esaldi bat eskatzen dion programa bat. Gero esaldi horretako hitz bat eskatu behar du. Azkenkik, programak esaldi bera itzuliko du baina aukeratutako hitza letra larriz agertu beharko da:
 
@@ -2810,7 +2818,7 @@ Idatzi esalditik hitz bat: ona
 Zein ONA den Ada andereñoa
 ```
 
-3.6 Ariketa
+### 3.6 Ariketa
 
 Sortu 5 izeneko zerrenda bat definitzen duen programa bat eta, ondoren, erabili begizta bat izenak banan-banan erakusteko.
 
@@ -2836,7 +2844,7 @@ Pip
 Bilbo
 ```
 
-3.7 Ariketa
+### 3.7 Ariketa
 
 Sortu 10 zenbaki osoko zerrenda bat definitzen duen programa bat. Gero, beste begizta bat sortu, elementu bakoitza inkrementatu (+1) eta erakusteko.
 
@@ -2873,7 +2881,7 @@ Emaitza:
 3
 ```
 
-3.8 Ariketa
+### 3.8 Ariketa
 
 Sortu 10 zenbaki osoko zerrenda bat definitzen duen programa bat. Ondoren, sortu begizta bat zerrendan elementuren bat errepikatuta dagoen bilatzeko. Errepikatutako bat aurkitzea nahikoa da.
 
@@ -2903,7 +2911,7 @@ Emaitza:
 Zenbaki bat errepikatuta dago
 ```
 
-3.9 Ariketa
+### 3.9 Ariketa
 
 Sortu 10 zenbaki osorekin hasitako zerrenda bat definituko duen programa. Gero, beste begizta bat sortu, zenbaki positiboak, negatiboak eta 0 direnak zenbatuko dituena.
 
@@ -2935,7 +2943,7 @@ Negatiboak: 2
 Zeroak: 1
 ```
 
-3.10 Ariketa
+### 3.10 Ariketa
 
 Sortu 5x10 elementuko bi dimentsioko zerrenda bat definituko duen programa bat. Zerrendako balioak ausazko (aleatorio edo _random_) zenbakiak erabiliz hasten dituen begizta bat sortzen du.
 Zenbaki aleatorioak sortzeko, `random` eta `random.randint()` funtzioa erabiltzen du liburutegiak, hemen erakusten den bezala:
@@ -2967,7 +2975,7 @@ for i in range(len(matrizea)):
             print("15 aurkitu da ", i, j)
 ```
 
-3.11 Ariketa
+### 3.11 Ariketa
 
 Sortu 10 zenbaki osorekin hasitako zerrenda bat definitzen duen programa. Begizta batean, pantaila bidez erakusten ditu elementu guztiak. Gero, beste begizta bat sortzen du, eta, bertan, elementuak lekuz aldatzen aldatzen ditu, indizeetan `random` funtzioa erabiliz. Gero emaitza erakusten du.
 
@@ -3415,7 +3423,7 @@ Edonork idatz ditzake funtzioak eta kodea zati txikitan antolatu. Baina _pro_ gi
 
 ## Proposatutako ariketak
 
-4.0 Ariketa
+### 4.0 Ariketa
 
 Idatzi bi zenbaki jasotzen dituen funtzio bat, detektatu zein den handiena eta erakutsi horien arteko aldea.
 
@@ -3441,7 +3449,7 @@ Aldea hau da: 5
 Aldea hau da: 8
 ```
 
-4.1 Ariketa
+### 4.1 Ariketa
 
 Idatzi bi zenbaki eta eragiketa zeinu aritmetiko bat jasotzen dituen programa bat: `+`, `-`,`*`, `/`. Funtzioak eragiketa horren emaitza itzuli behar du bi zenbakien artean.
 
@@ -3471,7 +3479,7 @@ Emaitza:
 Eragiketa ezezaguna
 ```
 
-4.2 Ariketa
+### 4.2 Ariketa
 
 `def agurtu (momentua)`
 
@@ -3508,7 +3516,7 @@ Arratsalde on.
 Arratsalde on.
 ```
 
-4.3 Ariketa
+### 4.3 Ariketa
 
 `hasiZenbakiarekin (luzera, zenbakia)`
 
@@ -3534,7 +3542,7 @@ Emaitza:
 [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
 ```
 
-4.4 Ariketa
+### 4.4 Ariketa
 
 `def ausazkoa (max)`
 
@@ -3555,7 +3563,7 @@ Emaitza:
 3
 ```
 
-4.5 Ariketa
+### 4.5 Ariketa
 
 `izenaSortu(silabak)`
 
@@ -3588,7 +3596,7 @@ Emaitza:
 xamozu
 ```
 
-4.6 Ariketa
+### 4.6 Ariketa
 
 `def pasahitzaSortu(luzera)`
 
@@ -3622,7 +3630,7 @@ Emaitza:
 _! 5_flg $
 ```
 
-4.7 Ariketa
+### 4.7 Ariketa
 
 Sortu `faktura` izeneko funtzioa (produktuak, kantitateak, prezioak), tamaina bereko hiru array jasotzen dituena, honako eduki hauekin:
 
@@ -3668,7 +3676,7 @@ Irina x 2: 0.8
 Guztira: 4.0
 ```
 
-4.8 ariketa
+### 4.8 ariketa
 
 Hau zailagoa izango da. RPG jokuetako pertsonaiak sortzeko funtzio bat duen programa bat sortzen du.
 
@@ -4205,7 +4213,7 @@ kasu askotan, programaren erabilera errazteko eta kodea modu argiagoan banatzeko
 
 ## Proposatutako ariketak
 
-5.0 Ariketa
+### 5.0 Ariketa
 
 Idatzi `Instrumentua` izeneko klase bat definitzen duen programa bat. Eraikitzaileak parametro hauek izan behar ditu, hurrenez hurren: `izena` eta `mota`. Gainera, `jo`  izeneko funtzio bat gehitu behar duzu, mezu bat aterako duena. Baita `info` funztioa, atributuen informazioa duen testu bat itzultzeko.
 Sortu klasearen instantzia bat eta deitu bere funtzioetara.
@@ -4234,7 +4242,7 @@ Gitarra jotzen
 Hari-gitarra
 ```
 
-5.1 Ariketa
+### 5.1 Ariketa
 
 Idatz ezazu programa bat, `IzenZuzena` izeneko klase bat definituko duena, eta, bertan, `__init__` eraikitzailea bat `izena` eta `abizena` atributuak hasieratzeko. Gainera, klaseak `zuzendu` izeneko metodo bat izan behar du, `izena` eta `abizena` atributuak zuzenduko dituena. `zuzendu` metodoak, lehenengo hizkiak larri eta gainerakoak xehe itzuliko ditu.
 
@@ -4270,7 +4278,7 @@ Emaitza:
 Juan Pérez
 ```
 
-5.2 Ariketa
+### 5.2 Ariketa
 
 Idatz ezazu programa bat `Batuketa`, izeneko klase bat definitzeko, eta bi zenbakirekin hasieratzeko.
 
@@ -4327,7 +4335,7 @@ Emaitza:
 666
 ```
 
-5.3 Ariketa
+### 5.3 Ariketa
 
 Sortu programa bat `Txanpona` izeneko klase batekin. Klaseak eraikitzaile huts bat izan behar du, eta funtzio bakar bat, `bota` izenekoa. Horren emaitza "aurpegiaren" edo "gurutzearen" artean ausaz aukeratutako *string* bat izan behar da. Sortu klasearen instantzia bat probatzeko.
 
@@ -4361,7 +4369,7 @@ gurutzea
 ...
 ```
 
-5.4 Ariketa
+### 5.4 Ariketa
 
 Sortu programa bat N aurpegiko dado baten portaera simulatzeko, `Dadoa` izeneko klase batekin. Sortu klaseko instantzia bat jaurtiketak probatzeko.
 
@@ -4426,7 +4434,7 @@ Emaitza:
 ...
 ```
 
-5.5 Ariketa
+### 5.5 Ariketa
 
 Sortu bi klase dauzkan programa bat:
 
@@ -4484,7 +4492,7 @@ Maradona Aurrelaria 10
 Beckenbauer Defentsa 4
 ```
 
-5.6 Ariketa
+### 5.6 Ariketa
 
 Sortu ondorengo klaseak definitzen dituen programa bat:
 
@@ -4566,7 +4574,7 @@ Dell 4553.4 Lentium 4 ordenagailua
 Chanmhung telefonoa 434.4 665745345
 ```
 
-5.7 Ariketa
+### 5.7 Ariketa
 
 Txanogorritxo proiektua sortuko dugu, non protagonistak janari saski bat kudeatzen duen. Janari mota askotakoa izango da. Hauek dira egin beharreko klaseak:
 
@@ -5056,7 +5064,7 @@ Oraingo 1. aukera
 
 ## Proposatutako ariketak
 
-6.0 Ariketa
+### 6.0 Ariketa
 
 Sortu `Fitxategia` izeneko klase bat, honako funtzio hauekin:
 
@@ -5113,7 +5121,7 @@ Aurreko edukia: Eduki aldatua!!! 2024-08-18
 Edukia: Edukia aldatuta!!! 2024-08-23
 ```
 
-6.1 Ariketa
+### 6.1 Ariketa
 
 Sor ezazu `Zerrenda` izeneko klase bat, honako funtzio hauekin:
 
@@ -5208,7 +5216,7 @@ Badago!
 1
 ```
 
-6.2 Ariketa
+### 6.2 Ariketa
 
 Sor ezazu `Zereginak` klase bat, honako funtzio hauekin:
 
@@ -5309,7 +5317,7 @@ Emaitza:
 ---
 ```
 
-6.3 Ariketa
+### 6.3 Ariketa
 
 Sor ezazu `Jokalaria` izeneko klase bat, eduki hau izango duena:
 
